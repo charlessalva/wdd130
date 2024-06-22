@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lato&display=swap');
 
 body {
     font-family: var(--paragraph-font);
@@ -12,7 +12,7 @@ body {
     --accent1-color: #937bd0;
     --accent2-color: #64a6da;
 
-    --heading-font: 'Roboto Condensed', serif;
+    --heading-font: 'Roboto', serif;
     --paragraph-font: 'Lato', sans-serif;
 
     --nav-background-color: #e5e5ef;
