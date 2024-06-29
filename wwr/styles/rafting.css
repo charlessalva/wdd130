@@ -15,9 +15,39 @@
     --nav-hover-background-color: #ffffff;
 }
 
-h1, h
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+div {
+    position: relative;
+}
+
+h1, article {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+article img {
+    width: 25%;
+    display: block;
+    height: auto;
+}
+
+article p {
+    float: right;
+}
 
 footer img {
-    width: 5%;
+    width: 25%;
     height: auto;
 }
