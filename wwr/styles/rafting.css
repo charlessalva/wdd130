@@ -8,19 +8,13 @@
 
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Lato', sans-serif;
-
-    --nav-background-color: #e5e5ef;
-    --nav-link-color: #64a6da;
-    --nav-hover-link-color: #2d1b45;
-    --nav-hover-background-color: #ffffff;
 }
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 1000px;
     padding: 20px;
 }
-
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -31,23 +25,48 @@ div {
     position: relative;
 }
 
-h1, article {
-    position: absolute;
-    top: 20px;
-    left: 50px;
-}
-
-article img {
-    width: 25%;
+.hero img{
+    max-width: 100%;
     display: block;
     height: auto;
 }
 
-article p {
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    color: var(--secondary-color);
+}
+
+article img {
+    width: 15%;
     float: right;
 }
 
-footer img {
-    width: 25%;
+article {
+    position: absolute;
+    top: 300px;
+    margin: 20px;
+    background-color: lightblue;
+    border: 10px solid lightblue;
+    opacity: 80%;
+}
+
+section p {
+    margin-bottom: 30px;
+    color: darkblue;
+}
+
+section img {
+    width: 50%;
     height: auto;
+}
+
+footer img {
+    width: 5%;
+    height: auto;
+}
+
+nav a {
+    text-decoration: none;
 }
