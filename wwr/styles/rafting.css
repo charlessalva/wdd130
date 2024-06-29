@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lato&display=swap');
+
+:root {
+    --primary-color: #2d1b45;
+    --secondary-color: #ffffff;
+    --accent1-color: #937bd0;
+    --accent2-color: #64a6da;
+
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Lato', sans-serif;
+
+    --nav-background-color: #e5e5ef;
+    --nav-link-color: #64a6da;
+    --nav-hover-link-color: #2d1b45;
+    --nav-hover-background-color: #ffffff;
+}
+
+h1, h
+
+footer img {
+    width: 5%;
+    height: auto;
+}
