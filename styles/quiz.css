@@ -1,21 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
     max-width: 840px;
     margin: 0 auto;
-    background-color: aliceblue;
+    background-color: #f0f8ff;
 }
 
 header {
     text-align: center;
 }
 
-form,
+form, 
 fieldset {
     display: grid;
     padding: 1rem;
-    grid-template-columns: auto;
+    margin-bottom: 1rem;
+}
+
+fieldset {
+    color: #ffffff;
+    background-color: #26408b;
+}
+
+legend {
+    font-size: larger;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #8d89a6;
+    color: #ffffff;
+}
+
+label,
+p {
+    font-weight: 1000;
+}
+
+input,
+textarea,
+select {
+    margin: 1rem;
+    opacity: 80%;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+        color: #000000;
+        font-weight: 600;
+}
+
+input,
+select {
+    height: 2rem;
+}
+
+select {
+    font-size: medium;
+    font-family: 'Lato', serif;
+    text-align: center;
+}
+
+img {
+    justify-self: center;
+    margin-top: 1rem;
 }
 
 button {
-    margin: 1rem;
+    font-size: 2rem;
+    font-weight: 1000;
+    letter-spacing: .5rem;
+    color: white;
+    background-color: #758173;
     align-self: center;
+    padding: 1rem;
+    margin-inline: 1rem;
+    border-radius: 1rem;
+}
+
+footer {
+    display: grid;
+    justify-items: center;
+    margin-bottom: 1rem;
 }
