@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD130 | Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>✅Basic HTML and CSS Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>All about HTML</legend>
+                <label for="question1">1. What does the acronym HTML stand for?</label>
+                <input type="text" id="question1" name="question1">
+                <label for="question2">2. Which element should we use to provide a more readable name the tab of the HTML?</label>
+                <select name="elements" id="question2">
+                    <option value="">choose one...</option>
+                    <option value="">title</option>
+                    <option value="">header</option>
+                    <option value="">meta</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>All about CSS</legend>
+                <label for="question3">3. Write a CSS declaration for the selector "p".</label>
+                <textarea name="css_declaration" id="question3" rows="3" placeholder=""></textarea>
+                <p>4. Which part of this CSS Syntax rule is the property?</p>
+                <img src="images/quiz-question4.png" alt="CSS Rule">
+                <input type="radio" id="p" name="css_rule_part" value="selector">
+                <label for="p">p</label>
+                <input type="radio" id="font-style" name="css_rule_part" value="property">
+                <label for="font-style">font-style</label>
+                <input type="radio" id="italic" name="css_rule_part" value="value">
+                <label for="italic">italic</label>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+    <footer>©️2024 | Quiz Form | Charles Nephi Salva</footer>
+</body>
+</html>

@@ -38,9 +38,7 @@ main img {
     float: right;
 }
 
-p {
-    padding: 0;
-}
+p { font-style: italic; }
 
 aside {
     position: relative;

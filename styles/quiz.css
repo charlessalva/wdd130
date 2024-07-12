@@ -1,0 +1,21 @@
+body {
+    max-width: 840px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+header {
+    text-align: center;
+}
+
+form,
+fieldset {
+    display: grid;
+    padding: 1rem;
+    grid-template-columns: auto;
+}
+
+button {
+    margin: 1rem;
+    align-self: center;
+}
