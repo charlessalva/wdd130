@@ -58,7 +58,7 @@ body {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -168,7 +168,7 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
 }
 
 footer nav {
@@ -232,7 +232,8 @@ iframe {
     background-color: #64a6da;
 }
 
-#employee h2 {
+#employee h2,
+#trips h2 {
     grid-column: 1 / 4;
 }
 
@@ -254,12 +255,19 @@ iframe {
     text-align: center;
 }
 
-form {
+#send-us-a-message {
     max-width: 530px;
-    height: 460px;
+    height: auto;
     margin: 0 auto;
     display: grid;
     margin-bottom: 20px;
+}
+
+#sign-up {
+    max-width: 400px;
+    height: auto;
+    display: grid;
+    float: inline-start;
 }
 
 fieldset {
@@ -270,7 +278,9 @@ fieldset {
 }
 
 #username,
-#useremail {
+#useremail,
+#name,
+#email {
     margin-bottom: 2px;
     padding: 5px;
     width: 80%;
@@ -290,4 +300,103 @@ button {
     margin-top: 10px;
     justify-self: center;
     padding: 5px 5rem 5px 5rem;
+}
+
+/* Trips CSS */
+
+hr {
+	width: 718px;
+	border-color: #000000;
+	border-width: 1px;
+	border-style: solid;
+}
+
+#trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+}
+
+#trips img {
+    width: 80%;
+    height: 300px;
+    justify-self: center;
+}
+
+
+#trips p,
+h3 {
+    text-align: center;
+}
+
+#trips button {
+    width: 90%;
+    background-color: whitesmoke;
+    font: var(--heading-font);
+    font-weight: 500;
+}
+
+#trips button:hover {
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    font-weight: 1000;
+}
+
+table caption {
+    font: var(--primary-color);
+    font-size: 40px;
+    letter-spacing: 10px;
+    background-color: #64a6da;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+table {
+    margin-bottom: 30px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid;
+}
+
+th:nth-child(4) {
+    width: 150px;
+}
+
+th:nth-child(7),
+th:nth-child(8) {
+    width: 10px;
+}
+
+thead {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+tbody {
+    text-align: center;
+}
+
+#action {
+    background-color: #2d1b45;
+    padding: 10px;
+    border-radius: 31px;  
+    margin: 0 auto;
+    text-align: center;
+    width: 50%;
+}
+
+#action a {
+    color: #FFFFFF;
+    letter-spacing: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#action a:hover {
+    text-decoration: underline;
+    font-weight: 900;
 }
